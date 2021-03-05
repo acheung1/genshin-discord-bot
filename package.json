@@ -1,0 +1,29 @@
+{
+  "name": "genshin-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that provides utility functions for the game Genshin Impact",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acheung1/genshin-discord-bot.git"
+  },
+  "author": "Andrew Cheung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acheung1/genshin-discord-bot/issues"
+  },
+  "homepage": "https://github.com/acheung1/genshin-discord-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.11.18",
+    "nodemon": "^2.0.7"
+  }
+}
