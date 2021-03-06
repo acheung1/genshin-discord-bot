@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon main.js"  },
+    "start": "nodemon main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acheung1/genshin-discord-bot.git"
@@ -24,6 +25,7 @@
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
     "mongoose": "^5.11.18",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
   }
 }
