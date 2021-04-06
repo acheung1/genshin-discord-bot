@@ -1,5 +1,3 @@
-//const profileModel = require('../../models/profileSchema');
-
 require('dotenv').config();
 
 const cooldown = new Map();
@@ -11,24 +9,6 @@ module.exports = async(Discord, client, message) => {
     if (!message.content.startsWith(process.env.PREFIX_COMMAND) || message.author.bot) {
         return;
     }
-
-   /*  let profileData;
-    try {
-        profileData = await profileModel.findOne({ userId: message.author.id });
-        
-        if (!profileData) {
-            console.log('existed');
-            let profile = await profileModel.create({
-                userId: message.author.id,
-                serverId: message.guild.id,
-                coins:1000,
-                bank: 0
-            });
-            profile.save();
-        }
-    } catch (err) {
-        console.log(err);
-    } */
 
     const args = message.content.slice(process.env.PREFIX_COMMAND.length).split(/ +/);
     const cmd = args.shift().toLowerCase();

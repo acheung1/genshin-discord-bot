@@ -1,3 +1,3 @@
 module.exports = () => {
-    console.log('The bot has started');
+    console.log('The bot has started.');
 }
